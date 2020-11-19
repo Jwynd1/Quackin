@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var location = {lat: 40.750901, lng: -74.027159};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: location});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: location, map: map});
+}
+    </script>
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrSIze2ivY9U6uMZqDbOr7CIYhI8D_1Is&callback=initMap">
+    </script>
+    <div>
+        Napoli's Pizza: 1118 Washington St, Hoboken, NJ 07030
+    </div>
+  </body>
+</html>

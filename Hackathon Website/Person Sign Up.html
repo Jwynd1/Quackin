@@ -1,0 +1,109 @@
+
+<html>
+<head>Donation Form</head>
+<form action = "/PPE Donation Form" method = "post">
+    <div>
+        <div>
+            <label for="first name">First Name</label>
+            <input type="text" id = "first name" name = "user_firstname" placeholder = "First Name">
+            <label for="last name">Last Name</label>
+            <input type="text" id = "last name" name = "use_lastname" placeholder = "Last Name">
+        </div>
+        <div>
+            <label for="city">City</label>
+            <input type="text" id = "city" name = "user_city" placeholder = "Hoboken">
+        </div>
+        <div>
+            <form>
+                <label for="state">State</label>
+                <select id = "state" name = "user_state">
+                    <option value = "AL">AL</option>
+                    <option value = "AK">AK</option>
+                    <option value = "AZ">AZ</option>
+                    <option value = "AR">AR</option>
+                    <option value = "CA">CA</option>
+                    <option value = "CO">CO</option>
+                    <option value = "CT">CT</option>
+                    <option value = "DE">DE</option>
+                    <option value = "FL">FL</option>
+                    <option value = "GA">GA</option>
+                    <option value = "HI">HI</option>
+                    <option value = "IA">ID</option>
+                    <option value = "ID">IL</option>
+                    <option value = "IL">IN</option>
+                    <option value = "IN">IA</option>
+                    <option value = "KS">KS</option>
+                    <option value = "KY">KY</option>
+                    <option value = "LA">LA</option>
+                    <option value = "MA">ME</option>
+                    <option value = "MD">MD</option>
+                    <option value = "ME">MA</option>
+                    <option value = "MI">MI</option>
+                    <option value = "MN">MN</option>
+                    <option value = "MO">MS</option>
+                    <option value = "MS">MO</option>
+                    <option value = "MT">MT</option>
+                    <option value = "NC">NC</option>
+                    <option value = "ND">ND</option>
+                    <option value = "NE">NE</option>
+                    <option value = "NH">NH</option>
+                    <option value = "NJ">NJ</option>
+                    <option value = "NM">NM</option>
+                    <option value = "NV">NV</option>
+                    <option value = "NY">NY</option>
+                    <option value = "OH">OH</option>
+                    <option value = "OK">OK</option>
+                    <option value = "OR">OR</option>
+                    <option value = "PA">PA</option>
+                    <option value = "RI">RI</option>
+                    <option value = "SC">SC</option>
+                    <option value = "SD">SD</option>
+                    <option value = "TN">TN</option>
+                    <option value = "TX">TX</option>
+                    <option value = "UT">UT</option>
+                    <option value = "VA">VA</option>
+                    <option value = "VT">VT</option>
+                    <option value = "WA">WA</option>
+                    <option value = "WI">WI</option>
+                    <option value = "WV">WV</option>
+                    <option value = "WY">WY</option>
+                </select>
+            </form>    
+        </div>
+        <div>
+            <label for="zip">Zip Code</label>
+            <input type ="text" id = "zip" name = "user_zip" placeholder = "07030">
+        </div>
+        <div>
+            <label for="donation">What Are You Donating?</label>
+            <input type = "text" id = "donations" name = "user_donations" placeholder = "N95 Masks, Gloves, Scrubs, etc.">
+            <label for="numDonations">How Many of Each Item Are You Donating?</label>
+            <input type ="text" id = "numDonations" name = "user_numDonations" placeholder = "Number of Items">
+        </div>
+        <div>
+            <form>
+                    <label for="delivery">Preferred Delivery Method</label>
+                    <select id = "deliveryList" name = "user_delivery" placeholder = "Drop Off at Hospital">
+                        <option value = "drop off">Drop Off at Hospital</option>
+                        <option value = "mail">Send via Mail</option>
+                    </select>
+            </form>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type = "email" id = "email" name = "user_email" placeholder = "name@domain.com">
+            <label for="number">Phone Number</label>
+            <input type = "text" id = "number" name = "user_number"placeholder = "123-456-7890 (Optional)">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type = "text" id = "password" name = "user_password"placeholder = "password">
+            <label for="confirmpassword">Confrim Password</label>
+            <input type = "text" id = "confirmpassword" name = "user_confirmpassword"placeholder = "password">
+        </div>
+    </div>
+</form>
+<div class="button">
+    <button type = "submit"> Sign up</button>
+</div>
+</html>
